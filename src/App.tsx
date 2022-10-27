@@ -1,11 +1,5 @@
-import React from 'react';
+import React from "react";
 
-const App = () => {
-  return (
-    <div>
-        UI.desk
-    </div>
-  );
+export function App() {
+	return <div>UI.desk</div>;
 }
-
-export default App;

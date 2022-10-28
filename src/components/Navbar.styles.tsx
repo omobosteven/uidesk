@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import styled from "@emotion/styled";
 import { pxToRem } from "src/utilities/pxToRem";
 

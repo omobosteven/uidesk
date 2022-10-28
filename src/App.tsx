@@ -1,5 +1,10 @@
 import React from "react";
+import { Navbar } from "src/components/Navbar";
 
 export function App() {
-	return <div>UI.desk</div>;
+	return (
+		<div>
+			<Navbar />
+		</div>
+	);
 }

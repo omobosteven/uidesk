@@ -11,14 +11,10 @@ const StyledButtonBase = styled.button({
 	cursor: "pointer"
 });
 
-export function ButtonBase({ children, className }: ButtonBaseProps) {
+export function ButtonBase({ children, className = "" }: ButtonBaseProps) {
 	return (
 		<StyledButtonBase className={className} type="button">
 			{children}
 		</StyledButtonBase>
 	);
 }
-
-ButtonBase.defaultProps = {
-	className: ""
-};

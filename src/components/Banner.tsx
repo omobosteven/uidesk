@@ -5,7 +5,7 @@ import { pxToRem } from "src/utilities/pxToRem";
 import heroImg from "src/assets/header-image.png";
 import bgElement from "src/assets/bg-elements.png";
 
-const StyledBanner = styled.div({
+const StyledBanner = styled.section({
 	marginTop: 24,
 
 	"& .text-wrapper": {
@@ -17,6 +17,7 @@ const StyledBanner = styled.div({
 			fontSize: pxToRem(74),
 			fontWeight: 500,
 			marginTop: 0,
+			marginBottom: 30,
 			color: "#181D19",
 
 			"& span": {
@@ -27,7 +28,8 @@ const StyledBanner = styled.div({
 		"& .text": {
 			color: "#181D19",
 			fontSize: pxToRem(24),
-			fontWeight: 300
+			fontWeight: 300,
+			marginBottom: 50
 		},
 
 		"@media screen and (min-width: 1024px)": {
@@ -58,7 +60,7 @@ const StyledBanner = styled.div({
 	}
 });
 
-export function Banner() {
+export const Banner = () => {
 	return (
 		<StyledBanner>
 			<div className="text-wrapper">
@@ -78,4 +80,4 @@ export function Banner() {
 			</div>
 		</StyledBanner>
 	);
-}
+};

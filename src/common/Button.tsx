@@ -32,14 +32,14 @@ const StyledButton = styled(ButtonBase, {
 	}
 }));
 
-export function Button({
+export const Button = ({
 	children,
 	className,
 	color = "secondary"
-}: ButtonProps) {
+}: ButtonProps) => {
 	return (
 		<StyledButton className={className} color={color}>
 			{children}
 		</StyledButton>
 	);
-}
+};

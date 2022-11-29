@@ -19,7 +19,7 @@ const Header = styled("header")({
 		marginBottom: 15
 	},
 
-	"& .subTitle": {
+	"& .subtitle": {
 		fontSize: pxToRem(18),
 		fontWeight: 300
 	},
@@ -29,7 +29,7 @@ const Header = styled("header")({
 			fontSize: pxToRem(54)
 		},
 
-		"& .subTitle": {
+		"& .subtitle": {
 			fontSize: pxToRem(24)
 		}
 	}
@@ -120,7 +120,7 @@ export const Choose = () => {
 		<Container>
 			<Header>
 				<h2 className="title">Why Choose US?</h2>
-				<h3 className="subTitle">
+				<h3 className="subtitle">
 					Organic food is grown without the use of synthetic chemicals
 				</h3>
 			</Header>

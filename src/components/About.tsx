@@ -115,7 +115,7 @@ export const About = () => {
 					</Button>
 				</Content>
 				<Image>
-					<img src={vegeImg} alt="vegatable bowl" className="img" />
+					<img src={vegeImg} alt="vegetable bowl" className="img" />
 				</Image>
 			</Section>
 			<Section>

@@ -17,6 +17,7 @@ const StyledButton = styled(ButtonBase, {
 	color: "#FFFFFF",
 	fontSize: pxToRem(16),
 	padding: "0.625em 1.635em",
+	fontWeight: 300,
 
 	...(props.color === "primary" && {
 		background: "linear-gradient(180deg, #64BB47 0%, #2C9553 100%)",

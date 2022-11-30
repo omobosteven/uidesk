@@ -6,6 +6,7 @@ import { About } from "src/components/About";
 import { Dishes } from "src/components/Dishes";
 import { Clients } from "src/components/Clients";
 import { Subscribe } from "src/components/Subscribe";
+import { Footer } from "src/components/Footer";
 
 export const App = () => {
 	return (
@@ -17,6 +18,7 @@ export const App = () => {
 			<Dishes />
 			<Clients />
 			<Subscribe />
+			<Footer />
 		</>
 	);
 };

@@ -49,8 +49,12 @@ const Card = styled("div")({
 	"& .header": {
 		display: "flex",
 		alignItems: "center",
-		justifyContent: "space-between",
-		marginBottom: 32
+		marginBottom: 32,
+		columnGap: 30,
+
+		"& .icon": {
+			marginLeft: "auto"
+		}
 	},
 
 	"& .header .name": {
@@ -93,7 +97,7 @@ export const Clients = () => {
 							<h3 className="name-title">KHALIL NAZIR</h3>
 							<h4 className="name-subtitle">CEO of UI.Desk</h4>
 						</div>
-						<QuoteIcon />
+						<QuoteIcon className="icon" />
 					</header>
 					<p className="text">
 						Thirty for remove plenty regard you summer though. He preference
@@ -109,7 +113,7 @@ export const Clients = () => {
 							<h3 className="name-title">ZEESHAN ANWER</h3>
 							<h4 className="name-subtitle">CEO of UI Box</h4>
 						</div>
-						<QuoteIcon />
+						<QuoteIcon className="icon" />
 					</header>
 					<p className="text">
 						Really boy law county she unable her sister. Feet you off its like
